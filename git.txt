@@ -99,7 +99,7 @@ Jan 19 2022:
 9. basic git commands
 	man git config
 
-Programming ? Compiler? Source code?
+what it new Programming ? Compiler? Source code?
 converts source code to machine language.
 
 
