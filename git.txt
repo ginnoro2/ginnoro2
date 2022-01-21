@@ -1,0 +1,105 @@
+GIT Hub training for E31
+Jan 19 2022:
+
+1. SCM( Source code management )
+	Storage / efficient storage
+	for large programs in distributed systems
+2. introduciton to github
+	uses git for version control 
+	is not open source ( someone ows it )
+	helps in version control 
+	software management
+	own by MicroSoft and is a Source code management tool using GIT.
+3. clarify misconception about git hub.
+	
+4. git // 
+	version control manager
+	is open source 
+	gitlab ( is different ) 
+	 
+5. histroy of version control software.
+	difference version of same files?
+
+	"image.png
+	image.BW.png
+	image.Vivid.png"
+
+	Manage different versions of a file.
+	dependencies ??
+	version control ??
+	there are different contributors in same page
+	distributed... on the internet. "branch"
+1970:
+	original file >>>
+	keep track of changes >>> and save 
+	OriginalFile -> till version5
+	V0---V5
+1980:	
+	keeps latest copy 
+	track changes and save
+	LC -> Original file
+	V5---V0
+2003:
+	linux ..
+	kernel with many contributors
+	linux made use of SCM version control
+	free liscensed.
+	kernel -- core files of an operating system
+	layers :
+		desktop 
+		gui
+		systems applications
+		system development
+		kernel ->>>HW interaction, critical tasks of any OS.
+
+2006:
+	Linus Torvalds....made GIT( open source )  
+	GIT to manage linux kernal.
+
+6. setting git command
+	brew install git
+	git init
+	git config user.email "ginnoro2@gmail.com
+7. initialize
+	git init
+8. three-tire architecture of git
+	version control manager has two tier architecture:
+	
+	V1--running > server > clients are using it 
+	cannot be disturbed. so need to make another working to keep the changes 
+	which is different than the main copy called 
+	
+	-- repository	>>first tier
+	--working copy ?? >>second tier
+		restore
+		discard changes
+		add modifications
+		and so on 
+
+	V2-->>maintainance , bug fixing, feature adding, wearable integration 
+ 	
+	diff -> difference between object
+
+	GIT has three tier architecture:
+	-- working directory
+	-- staging index
+	-- repo
+		LEVLES : ( puts file in 3 version ) 
+	working directory ->> make changes 
+	staging ->> staged ( to make it ready to commit ) 
+	repo->> commit
+	
+	<<<- increaases the number of copies
+	number of tracks increased ->>> 
+	
+	
+	levels ->> here working is from  
+	system development 
+	
+9. basic git commands
+	man git config
+
+Programming ? Compiler? Source code?
+converts source code to machine language.
+
+
